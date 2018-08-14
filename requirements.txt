@@ -1,0 +1,6 @@
+Django<2
+djangorestframework==3.6.2
+django-filter==1.0.2
+django-rest-swagger==2.1.2
+factory-boy
+djangorestframework-jwt==1.11.0

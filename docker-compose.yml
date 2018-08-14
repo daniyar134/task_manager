@@ -1,0 +1,11 @@
+version: '2'
+services:
+  task_manager:
+    image: kapkaev1/task_manager:latest
+    ports:
+      - "7777:7777"
+    volumes:
+      - .:/opt/task_manager
+    command: ["/bin/sh", "run.sh"]
+
+
